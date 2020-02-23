@@ -1,0 +1,546 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@charset "utf-8";
+
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+
+ul{list-style:none;}
+
+table{border-collapse:collapse;border-spacing:0;}
+
+caption,th{text-align:left;}
+
+q:before,q:after{content:'';}
+
+object,embed{vertical-align:top;}
+
+legend{display:none;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+
+img,abbr,acronym,fieldset{border:0;}
+
+
+body{
+	font: 14px/1.9 'Hiragino Kaku Gothic Std','Hiragino Kaku Gothic Std','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ Std W8','ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN',游ゴシック,'Noto Sans JP', Arial, Verdana,  YuGothic, メイリオ, Meiryo,sans-serif;
+	font-weight: 300;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #333;
+	background: #fff;
+	text-align: center;
+}
+
+p {
+	font-family: 'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN','Yu Gothic';
+}
+
+.wrap {
+	overflow: hidden;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+
+/* 
+
+sec01 FV 
+
+*/
+
+.fv {
+	padding: 0;
+	margin: 0;
+	display: block;
+	background-image: url("img/head.jpg");
+	width: 1080px;
+	height: 634px;
+}
+
+
+@media (max-device-width: 480px) {
+	.fv {
+		height: 900px;
+		background-image: url("img/head_sp.jpg")
+	}
+}
+
+
+
+/*
+
+sec02 CV  
+
+*/
+
+.cv-main img{
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+	display: inline-block;
+}
+
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #036eb7;
+  display: inline-block;
+  margin: 0 auto 25px;
+}
+
+
+.cv-title  h2,.sec05-title h2 {
+	color: #fff000;
+	background-color: #036eb7;
+	font-size: 43px;
+	padding: 10px 0;
+}
+
+.cv-main h2{
+	display: inline;
+	font-size: 51px;
+	font-weight: bold;
+}
+
+
+.cv-text {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	width: 90%;
+	text-align: left;
+	display: inline-block;
+}
+
+
+.text {
+	display: inline-block;
+	text-align: left;
+	padding-left: 0;
+	font-size: 20px;
+}
+
+.cv {
+	float: right;
+}
+
+
+/* 
+
+sec03 人が集まらないとお困りではありませんか？
+
+*/
+
+.sec03 {
+	background-image: url("img/sec03-background.jpg")
+}
+
+
+.sec03-title {
+	padding: 55px 0 50px 0;
+}
+
+.sec03-container h2 {
+	font-size: 40px;
+	height: 66px;
+	color: #182987;
+	background: linear-gradient(transparent 80%, white 0%);
+	display: inline-block;
+	text-align: center;
+}
+
+
+.sec03-box {
+	background-color: rgba(255,255,255,0.7);
+	width: 840px;
+	display: inline-block;
+	padding: 40px 60px;
+	margin-bottom: 70px;
+	text-align: left;
+	font-size: 32px;
+}
+
+.sec03-box img {
+	display: inline;
+	width: 35px;
+	height: 35px;
+	margin-top: 24px;
+	vertical-align: top;
+}
+
+.sec03-box li {
+	padding: 0 20px;
+}
+
+h4 {
+	display: inline-block;
+	margin: 14px;
+}
+
+
+/* 
+
+sec04 クックスタッフとは？
+
+*/
+
+
+.sec04-container hr{
+	margin: 0;
+	height: 10px;
+}
+
+
+.sec04-triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 35px solid #2CA6E0;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.sec04-main {
+	padding: 70px;
+}
+
+.sec04-main p {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.sec04-main h2 {
+	font-size: 77px;
+	color: #A80000;
+}
+
+.sec04-text {
+	width: 960px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+h3 {
+	width: 915px;
+	font-size: 36px;
+	text-align: left;
+	margin: 60px auto;
+	padding-left: 35px;
+	border-left: solid 10px #309ACE;
+	border-bottom: solid 1px #309ACE;
+}
+
+.sec04-text li {
+	width: 240px;
+	display: inline-block;
+	margin: 0 38px;
+	vertical-align: top;
+}
+
+.sec04-img {
+	height: 100px;
+}
+
+.sec04-text h4 {
+	font-size: 24px;
+	width: 240px;
+	height: 35px;
+	background-color: #E73828;
+	color: #FFFFFF;
+	margin: 0;
+	padding-bottom: 7px;
+	font-family: 'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN';
+}
+
+.sec04-text p {
+	margin-top: 25px;
+	text-align: left;
+}
+
+.sec04-container {
+	margin-bottom: 140px;
+}
+
+
+/* 
+
+sec05 クックスタッフが選ばれる３つの理由 
+
+*/
+
+.sec05-title img{
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+	display: inline-block;
+}
+
+.sec05-title p {
+	display: inline;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.sec05-box {
+	background-color: #F7F7F7;
+	padding: 40px;
+}
+
+.sec05-box h4 {
+	color: #E73828;
+	font-size: 26px;
+	border: none;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN';
+}
+
+.sec05-list {
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	height: 345px;
+}
+
+.sec05-box li {
+	width: 240px;
+	display: inline-block;
+	padding: 0 38px;
+	vertical-align: top;
+}
+
+.sec05-box img {
+	padding: 25px 0;
+}
+
+.sec05-box p {
+	text-align: left;
+	font-family: 'Meiryo UI','メイリオ','Meiryo';	
+}
+
+
+/*
+
+ sec06 毎月当社に登録する人材 
+
+*/
+
+.sec06-title {
+	margin-top: 82px;
+}
+
+.sec06-title p {
+	font-size: 38px;
+	font-weight: bold;
+	font-family: 'Hiragino Kaku Gothic Std','Hiragino Kaku Gothic Std','ヒラギノ角ゴ Std W8';
+}
+
+.sec06-title-a {
+	background: linear-gradient(transparent 80%, #FFF000 0%);
+}
+
+.sec06-graph {
+	display: inline-block;
+	margin-right: 52px;
+	vertical-align: top;
+}
+
+.graph-img {
+	margin: 20px 0;
+}
+
+.graph-text {
+	font-size: 20px;
+}
+
+.sec06-text {
+	display: inline-block;
+	text-align: left;
+	width: 590px;
+}
+
+.sec06-text h4 {
+	color: #fff;
+	font-size: 23px;
+	background-color: #3E3A39;
+	width: 590px;
+	margin: 14px 0;
+	padding-left: 14px;
+	font-family: 'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN';
+}
+
+.sec06-text p {
+	margin: 14px 0;
+	font-size: 20px;
+}
+
+
+
+/* 
+
+sec08 アジバイトで募集を始めるためのステップ 
+
+*/
+
+.sec08-main {
+	width: 700px;
+	display: inline-block;
+	text-align: left;
+}
+
+.no-price {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.no-price p {
+  color: red;
+  text-decoration: line-through;
+  font-size: 50px;
+  text-align: left;
+  }
+
+.no-price span {
+   color: black;
+  }
+
+.accent-price {
+	color: #FFF000;
+	background-color: #2F2C2B;
+	width: 300px;
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.accent-price p {
+	font-family: 'Hiragino Kaku Gothic Std','Hiragino Kaku Gothic Std','ヒラギノ角ゴ Std W8';
+	text-align: center;
+}
+
+.price p{
+	display: inline-block;
+	font-size: 150px;
+	color: #A80000;
+	font-family: 'Century Gothic','Century Gothic';
+	font-weight: bold;
+	line-height: 0.8;
+}
+
+.price {
+	text-align: left;
+	display: inline-block;
+}
+
+.tax {
+	display: inline-block;
+	font-size: 30px
+}
+
+
+.sec08-text {
+	padding: 30px 55px;
+	border: solid 1px #000;
+	width: 850px;
+	margin: 60px auto 70px;
+	font-size: 18px;
+}
+
+
+/* 
+
+sec09 よくある質問
+
+*/
+
+.sec09-container {
+	background-image: url("img/sec09-background.jpg")
+}
+
+.sec09-container h2 {
+	font-size: 46px;
+	background-color: #595757;
+	height: 100px;
+	color: #fff;
+}
+
+.sec09-title {
+	padding: 55px 0 0;
+}
+
+.sec09-triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #595757;
+  margin: 0 auto 25px;
+}
+
+.sec09-box {
+	background-color: rgba(255,255,255,0.7);
+	width: 840px;
+	display: inline-block;
+	padding: 30px 60px;
+	margin-bottom: 70px;
+	text-align: left;
+	font-size: 32px;
+}
+
+.sec09-box li {
+	padding: 30px 0;
+	font-family: 'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN';	
+}
+
+.sec09-box h4{
+	font-size: 30px;
+	color: #036EB7;
+}
+
+.sec09-box p {
+	padding-left: 45px;
+	font-size: 20px;
+}
+
+.sec09-list {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+
+/* 
+
+sec10 CV 
+
+*/
+
+
+.sec10-container {
+	margin-top: 90px;
+}
+
+
+/* 
+
+footer 
+
+*/
+
+footer {
+	background-color: #3E3A39;
+	color: #fff;
+	padding: 25px 0;
+}
+
+
